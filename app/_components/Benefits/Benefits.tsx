@@ -49,8 +49,8 @@ const Benefits = () => {
           ))}
         </div>
 
-        <div className="mt-12 flex flex-col gap-5 rounded-3xl border-l-4 border-amber-400 bg-slate-950 px-6 py-7 text-white sm:flex-row sm:items-center sm:justify-between sm:px-10">
-          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-amber-300">
+        <div className="mt-12 flex flex-col gap-5 rounded-3xl border-l-4 border-amber-600 bg-slate-950 px-6 py-7 text-white sm:flex-row sm:items-center sm:justify-between sm:px-10">
+          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-amber-600">
             Solução sob medida
           </p>
           <h3 className="max-w-2xl text-xl font-bold sm:text-2xl">
