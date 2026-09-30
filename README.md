@@ -23,9 +23,10 @@ Landing page criada para uma empresa de transporte e logística, apresentando se
 
 O projeto foi desenvolvido para proporcionar uma boa visualização em diferentes tamanhos de tela, incluindo desktop, tablet e dispositivos móveis.
 
-## 🖥️ Preview
+[GitHub](https://github.com/jmininel)
+## Preview
 
-<!-- Adicione aqui o GIF ou imagem de preview do projeto -->
+![Soldera transposrtes de cargas LTDA](public/transportesView.gif)
 
 ## ⚙️ Como executar
 
@@ -59,10 +60,6 @@ Acesse no navegador:
 http://localhost:3000
 ```
 
-## 👩‍💻 Autora
+## Autoria
 
-**Juliana Mininel**
-
-Frontend Developer
-
-[GitHub](https://github.com/jmininel)
+**Juliana Mininel** · Frontend Developer
