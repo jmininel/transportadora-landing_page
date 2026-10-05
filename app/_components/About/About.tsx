@@ -12,7 +12,7 @@ const About = () => {
               Transportamos confiança, pontualidade e cuidado em cada entrega.
             </h2>
             <p className="mt-5 max-w-xl text-base leading-7 text-slate-300 sm:text-lg">
-              A Soldera Transportes nasceu para entregar soluções de logística com responsabilidade,
+              A Soldeira Transportes nasceu para entregar soluções de logística com responsabilidade,
               atenção aos detalhes e compromisso com o prazo. Nossa missão é facilitar a operação
               de clientes e parceiros com eficiência e segurança em cada rota.
             </p>
