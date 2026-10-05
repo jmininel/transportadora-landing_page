@@ -6,7 +6,7 @@ const Hero = () => {
     <section id="top" className="relative isolate overflow-hidden bg-slate-950">
       <div className="relative min-h-[670px] w-full sm:min-h-[720px] lg:min-h-[700px]">
         <Image
-          src="/banner.png"
+          src="/banner.jpg"
           alt="Transportadora trabalhando com logística e entregas"
           fill
           priority
@@ -30,20 +30,22 @@ const Hero = () => {
             </h1>
 
             <p className="reveal-up delay-2 mt-7 max-w-xl text-base leading-7 text-slate-200 sm:text-lg">
-              Na Soldera Transportes, entregamos segurança, agilidade e compromisso em cada rota,
+              Na Soldeira Transportes, entregamos segurança, agilidade e compromisso em cada rota,
               conectando pessoas, negócios e oportunidades com eficiência.
             </p>
 
             <div className="reveal-up delay-3 mt-9 flex flex-wrap gap-4">
               <a
-                href="#contact"
+                href="https://wa.me/5517997066758?text=Gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group inline-flex items-center justify-center gap-3 rounded-full bg-amber-600 px-6 py-3.5 text-sm font-bold text-slate-950 transition-all duration-300 hover:-translate-y-1 hover:bg-amber-500 hover:shadow-xl hover:shadow-amber-400/20">
                 Solicitar cotação <ArrowDownRight size={17} className="transition-transform duration-300 group-hover:translate-y-1" />
               </a>
               <a
-                href="#services"
+                href="#partners"
                 className="inline-flex items-center justify-center gap-2 rounded-full border border-white/30 bg-white/5 px-6 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:border-white/60 hover:bg-white/10">
-                Conhecer serviços <MoveRight size={17} />
+                Conhecer parceiros <MoveRight size={17} />
               </a>
             </div>
             <div className="reveal-up delay-4 mt-20 grid max-w-xl grid-cols-3 border-t border-white/20 pt-5 text-white sm:mt-24">
