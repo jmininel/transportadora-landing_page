@@ -5,15 +5,15 @@ import { ArrowUpRight } from "lucide-react";
 const Header = () => {
   const menuLinks = [
     { url: "#about", label: "Sobre nós" },
-    { url: "#services", label: "Serviços" },
+    { url: "#partners", label: "Parceiros" },
     { url: "#contact", label: "Contatos" }
   ]
 
   return (
     <header className="sticky top-0 z-50 border-b border-slate-900/10 bg-[#f8f6ef]/90 backdrop-blur-xl">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 sm:px-8 lg:px-12">
+      <div className="mx-auto flex max-w-5xl items-center justify-between px-5 py-3 sm:px-8 lg:px-12">
         <Link href="#top" className="flex items-center transition-transform duration-300 hover:scale-[1.03]">
-          <Image src="/logoSoldera.svg" width={156} height={52} alt="Soldera Transportes" className="h-11 w-auto" />
+          <Image src="/logoSoldeira.svg" width={156} height={52} alt="Soldeira Transportes" className="h-11 w-auto" />
         </Link>
         <nav aria-label="Menu principal" className="flex items-center gap-5">
           <ul className="hidden items-center gap-6 text-sm font-semibold text-slate-700 md:flex">
@@ -28,9 +28,9 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <Link href="#contact" className="group inline-flex items-center gap-2 rounded-full bg-slate-900 px-4 py-2.5 text-xs font-bold uppercase tracking-[0.12em] text-white transition-all duration-300 hover:bg-amber-500 hover:text-slate-950 hover:shadow-lg hover:shadow-amber-500/20">
+          <a href="https://wa.me/5517997066758?text=Gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center gap-2 rounded-full bg-slate-900 px-4 py-2.5 text-xs font-bold uppercase tracking-[0.12em] text-white transition-all duration-300 hover:bg-amber-500 hover:text-slate-950 hover:shadow-lg hover:shadow-amber-500/20">
             Cotar carga <ArrowUpRight size={15} className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-          </Link>
+          </a>
         </nav>
       </div>
     </header>
